@@ -1,0 +1,72 @@
+{
+  //
+  "breadcrumbs.enabled": false,
+  //
+  "editor.fontFamily": "Source Code Pro",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "400",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnType": true,
+  "editor.renderWhitespace": "all",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.smoothScrolling": true,
+  //
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "pug"
+  },
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  //
+  "explorer.sortOrder": "type",
+  "explorer.decorations.colors": false,
+  //
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  //
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  //
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  //
+  "workbench.startupEditor": "none",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.statusBar.visible": true,
+  "workbench.tree.indent": 10,
+  "workbench.editorAssociations": [],
+  "workbench.colorCustomizations": {
+    "editorWhitespace.foreground": "#787970"
+  },
+  //
+  "workbench.colorTheme": "Oceanic Next",
+  "workbench.iconTheme": "chalice-icon-theme",
+  "window.zoomLevel": 0,
+  //
+  "chaliceIcons.showArrows": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
+}
