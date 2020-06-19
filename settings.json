@@ -2,18 +2,17 @@
   //
   "breadcrumbs.enabled": false,
   //
-  "editor.fontFamily": "Source Code Pro",
+  "editor.fontFamily": "Operator Mono",
   "editor.fontSize": 17,
   "editor.lineHeight": 25,
-  "editor.letterSpacing": 0.5,
-  "editor.fontWeight": "400",
+  "editor.letterSpacing": 0.7,
+  "editor.fontWeight": "200",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 5,
   "editor.cursorBlinking": "solid",
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
   "editor.mouseWheelZoom": true,
   "editor.formatOnType": true,
   "editor.renderWhitespace": "all",
@@ -21,6 +20,7 @@
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "gutter",
   "editor.smoothScrolling": true,
+
   //
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
@@ -38,6 +38,7 @@
   "files.trimFinalNewlines": true,
   //
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
   //
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   //
@@ -50,23 +51,26 @@
   "workbench.colorCustomizations": {
     "editorWhitespace.foreground": "#787970"
   },
-  //
-  "workbench.colorTheme": "Oceanic Next",
-  "workbench.iconTheme": "chalice-icon-theme",
-  "window.zoomLevel": 0,
+  "workbench.iconTheme": "Monokai Classic Icons",
+  "window.zoomLevel": 1,
   //
   "chaliceIcons.showArrows": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "[css]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "python.venvPath": "C:\\envs",
+  "python.jediEnabled": false,
+  "workbench.colorTheme": "Oceanic Next",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.fontLigatures": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
-  "[html]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+  "java.semanticHighlighting.enabled": true,
+  "files.associations": {
+    "*.json": "jsonc"
   }
 }
