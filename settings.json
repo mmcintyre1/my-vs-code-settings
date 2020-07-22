@@ -1,76 +1,81 @@
 {
-  //
-  "breadcrumbs.enabled": false,
-  //
-  "editor.fontFamily": "Operator Mono",
-  "editor.fontSize": 17,
-  "editor.lineHeight": 25,
-  "editor.letterSpacing": 0.7,
-  "editor.fontWeight": "200",
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 5,
-  "editor.cursorBlinking": "solid",
-  "editor.tabSize": 2,
-  "editor.detectIndentation": false,
-  "editor.formatOnPaste": true,
-  "editor.mouseWheelZoom": true,
-  "editor.formatOnType": true,
-  "editor.renderWhitespace": "all",
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.minimap.enabled": false,
-  "editor.renderLineHighlight": "gutter",
-  "editor.smoothScrolling": true,
-
-  //
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html",
-    "razor": "html",
-    "plaintext": "pug"
-  },
-  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
-  //
-  "explorer.sortOrder": "type",
-  "explorer.decorations.colors": false,
-  //
-  "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
-  //
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.validate.enable": false,
-  //
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-  //
-  "workbench.startupEditor": "none",
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.statusBar.visible": true,
-  "workbench.tree.indent": 10,
-  "workbench.editorAssociations": [],
-  "workbench.colorCustomizations": {
-    "editorWhitespace.foreground": "#787970"
-  },
-  "workbench.iconTheme": "Monokai Classic Icons",
-  "window.zoomLevel": 1,
-  //
-  "chaliceIcons.showArrows": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "python.venvPath": "C:\\envs",
-  "python.jediEnabled": false,
-  "workbench.colorTheme": "Oceanic Next",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.fontLigatures": true,
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "java.semanticHighlighting.enabled": true,
-  "files.associations": {
-    "*.json": "jsonc"
+    //
+    "breadcrumbs.enabled": false,
+    // editor settings
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.7,
+    "editor.fontWeight": "200",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 5,
+    "editor.cursorBlinking": "solid",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "all",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.smoothScrolling": true,
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+    // emmet settings
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "vue-html": "html",
+      "razor": "html",
+      "plaintext": "pug"
+    },
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    // explorer options
+    "explorer.sortOrder": "type",
+    "explorer.decorations.colors": false,
+    // file options
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "files.associations": {
+      "*.json": "jsonc",
+      "*.out": "json",
+      "*.in": "xml"
+    },
+    // language-specific
+    // javascript
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.validate.enable": false,
+    // java
+    "java.semanticHighlighting.enabled": true,
+    // python
+    "python.venvPath": "C:\\envs",
+    "python.jediEnabled": false,
+    // workbench
+    "workbench.startupEditor": "none",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.statusBar.visible": true,
+    "workbench.tree.indent": 10,
+    "workbench.editorAssociations": [],
+    "workbench.colorCustomizations": {
+      "editorWhitespace.foreground": "#787970"
+    },
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "workbench.iconTheme": "material-icon-theme",
+    // window
+    "window.zoomLevel": 1,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // terminal settings
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.fontSize": 12,
+    //plugin settings
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
-}
